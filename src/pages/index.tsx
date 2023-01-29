@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import {Heading } from '@design-system-course/react'
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
         <title>Ignite Call Home</title>
       </Head>
       <div>
-        <h1>Hello</h1>
+        <Heading size="lg" as="h1">Hello world</Heading>
       </div>
     </>
   )
