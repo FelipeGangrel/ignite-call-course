@@ -11,7 +11,6 @@ export const Container = styled('div', {
 })
 
 export const Hero = styled('div', {
-  background: '#ccc4',
   maxWidth: '480px',
   padding: '0 $10',
 
